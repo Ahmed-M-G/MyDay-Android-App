@@ -1,2 +1,2 @@
 # MyDay
-<img src="im.png">
+<img src="im.jpg">
