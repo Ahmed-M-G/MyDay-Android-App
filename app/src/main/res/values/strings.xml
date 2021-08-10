@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Day</string>
+    <string name="main_act_title"> Days Of The Week </string>
+    <string name="intent_key"> intentKey </string>
+    <string name="intent_key_next"> intentKey_two </string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="faculty">Faculty</string>
+    <string name="daily_routine">Daily Routine</string>
+    <string name="time">Time</string>
+    <string name="place">Place</string>
+    <string name="subj">Subject</string>
+    <string name="time_s_1">9 : 11</string>
+    <string name="Lab">Lab</string>
+    <string name="Compil_lab">Compiler Lab</string>
+    <string name="time_s_2">11 : 2</string>
+    <string name="hall_G">قاعة ج</string>
+    <string name="ai">AI</string>
+    <string name="time_s_3">2 : 4</string>
+    <string name="class_5">فصل 5</string>
+    <string name="compiler">Compiler</string>
+    <string name="ip">IP</string>
+    <string name="ip_par"><![CDATA[IP & Parallel]]></string>
+    <string name="time_t_1">6 : 7</string>
+    <string name="stadium">مدرج حماد</string>
+    <string name="skil">مهارات عمل</string>
+    <string name="time_w_1">8 : 11</string>
+    <string name="parallel">Parallel</string>
+    <string name="class_2">فصل 2</string>
+    <string name="cyber">Cyber Security</string>
+
+</resources>

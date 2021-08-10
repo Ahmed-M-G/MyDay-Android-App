@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    tools:context=".Tables">
+
+    <TextView
+        android:id="@+id/r"
+        style="@style/main_act_title"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab1"
+        android:layout_margin="8dp"
+        android:padding="2dp"
+        >
+        <TableRow android:id="@+id/r1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                style="@style/tab1_tx"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/place"
+                style="@style/tab1_tx"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subj"
+                style="@style/tab1_tx"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_s_1"
+                style="@style/tab1_tx_body"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lab"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Compil_lab"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_s_2"
+                style="@style/tab1_tx_body"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hall_G"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tab1_tx_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/time_s_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/class_5"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/compiler"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+<!-- Table 2 -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab2"
+        android:layout_margin="8dp"
+        android:padding="2dp"
+        >
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                style="@style/tab1_tx"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/place"
+                style="@style/tab1_tx"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subj"
+                style="@style/tab1_tx"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_s_2"
+                style="@style/tab1_tx_body"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hall_G"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ip"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tab1_tx_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/time_s_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lab"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ip_par"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tab1_tx_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/time_t_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stadium"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skil"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Table 3 -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab3"
+        android:layout_margin="8dp"
+        android:padding="2dp"
+        >
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                style="@style/tab1_tx"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/place"
+                style="@style/tab1_tx"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subj"
+                style="@style/tab1_tx"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_w_1"
+                style="@style/tab1_tx_body"
+                android:layout_weight="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hall_G"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parallel"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tab1_tx_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/time_s_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/class_2"
+                style="@style/tab1_tx_body"
+                android:layout_weight="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cyber"
+                style="@style/tab1_tx_body"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/free_day"
+        >
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Day"
+            android:drawableBottom="@drawable/ic_smiley"
+            android:padding="33dp"
+            android:drawablePadding="22dp"
+            style="@style/tab1_tx"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
